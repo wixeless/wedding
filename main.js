@@ -7,7 +7,7 @@ function getParameterByName(name, url = window.location.href) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-const mainUrl = "https://jahongir28.github.io/wedding/guests.json"
+const mainUrl = "https://jahongir28.github.io/wedding?id=ccfc1369-3769-4db9-b325-ab950d677e60"
 
 $(document).ready(function () {
     //const guests = JSON.parse(guests)

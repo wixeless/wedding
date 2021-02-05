@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(test.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10%;
+}
