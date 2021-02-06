@@ -1,0 +1,42 @@
+
+.top-rose-anim{
+    animation: roses-top-anim 2s;
+}
+
+@-webkit-keyframes roses-top-anim {
+    from {top: -120px;}
+    to {top: 0;}
+}
+
+.bottom-rose-anim{
+    animation: roses-bottom-anim 2s;
+}
+@-webkit-keyframes roses-bottom-anim {
+    from {bottom: -150px;}
+    to {bottom: 0;}
+}
+
+.content-anim{
+    -webkit-animation-duration: 2s, 2s;
+    -webkit-animation-name: fade-in, zoom-in;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes zoom-in {
+    0% {
+        -webkit-transform: scale(0.0);
+        transform: scale(0.0)
+    }
+    100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0)
+    }
+}
