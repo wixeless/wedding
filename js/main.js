@@ -30,10 +30,11 @@ $(document).ready(function () {
                 gender = field.gender
             }
         });
-        if (names.length === 0){
-            $( ".content-main" ).hide();
-            $("#error-message").text('Пригласительный не найден')
-            $( ".error-message" ).show();
+        if (names.length === 0) {
+            $(".content-main").hide();
+            let text = $("#error-message").text('Пригласительный\nне найден')
+            text.html(text.html().replace(/\n/g, '<br/>'));
+            $(".error-message").show();
             return
         }
 
@@ -44,9 +45,9 @@ $(document).ready(function () {
             $("#guest-name-2").text(names[1])
         } else {
             let prefix
-            if (gender === "F"){
+            if (gender === "F") {
                 prefix = 'Уважаемая'
-            }else {
+            } else {
                 prefix = 'Уважаемый'
             }
             $("#welcome-title").text(prefix)
