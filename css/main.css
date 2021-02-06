@@ -19,7 +19,6 @@ body {
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-
 .match-parent {
     height: 100%;
     width: 100%;
@@ -58,55 +57,90 @@ body {
     line-height: 1.0;
 }
 
-.main-names {
+.text-block {
     margin-bottom: 1em;
     margin-top: 1em;
 }
 
 .main-names p {
-    font-size: 1.5rem;
-}
-
-.guest-names {
-    margin-bottom: 1em;
-    margin-top: 1em;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 .guest-names p {
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .info-text{
     font-size: 1.0rem;
 }
+.info-text p{
+    font-size: 1.0rem;
+}
+
+.text-date{
+    font-size: 1.2rem;
+    font-weight: 450;
+}
 
 @media (min-width: 35em) {
-    .info-text{
-        font-size: 2.0rem;
-    }
     .guest-names p{
-        font-size: 2.3rem;
+        font-size: 1.8rem;
     }
     .main-names p {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
+    }
+    .info-text{
+        font-size: 1.5rem;
+    }
+    .info-text p{
+        font-size: 1.5rem;
+    }
+    .text-date{
+        font-size: 1.8rem;
+    }
+    .text-block {
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+    }
+}
+
+@media (min-height: 50em) {
+    .guest-names p{
+        font-size: 1.6rem;
+    }
+    .main-names p {
+        font-size: 1.8rem;
+    }
+    .info-text{
+        font-size: 1.3rem;
+    }
+    .info-text p{
+        font-size: 1.3rem;
+    }
+    .text-date{
+        font-size: 1.5rem;
     }
 }
 
 @media (min-height: 70em) {
-    .info-text{
-        font-size: 3.0rem;
-    }
     .guest-names p{
         font-size: 3.3rem;
-    }
-    .guest-names {
-        margin-bottom: 2em;
-        margin-top: 2em;
     }
     .main-names p {
         font-size: 4.5rem;
     }
-    .main-names {
+    .info-text{
+        font-size: 3.0rem;
+    }
+    .info-text p{
+        font-size: 3.0rem;
+    }
+    .text-date{
+        font-size: 3.3rem;
+    }
+    .text-block {
         margin-bottom: 2em;
         margin-top: 2em;
     }
