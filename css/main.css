@@ -45,6 +45,10 @@ body {
     align-items: center;
     display: flex;
 }
+.content-main{
+    margin-left: 1em;
+    margin-right: 1em;
+}
 
 .roses-top {
     height: 15vh;
@@ -54,12 +58,24 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+    animation: roses-top-anim 2s;
+}
+
+@keyframes roses-top-anim {
+    from {top: -120px;}
+    to {top: 0;}
 }
 
 .roses-bottom-con {
     position: absolute;
     left: 0;
     bottom: 0;
+    animation: roses-bottom-anim 2s;
+}
+
+@keyframes roses-bottom-anim {
+    from {bottom: -150px;}
+    to {bottom: 0;}
 }
 
 .roses-bottom {
