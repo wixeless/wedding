@@ -12,6 +12,13 @@
   {
     "id": "ccfc1369-3769-4db9-b325-ab950d677e60",
     "order": 3,
-    "names": ["Kojo", "Aida"]
+    "gender": "M",
+    "names": ["Kojo"]
+  },
+  {
+    "id": "ccfc1369-3769-4db9-b325-ab950d677e61",
+    "order": 3,
+    "gender": "F",
+    "names": ["Кама"]
   }
 ]

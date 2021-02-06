@@ -47,8 +47,16 @@ body {
 .content-main{
     margin-left: 1em;
     margin-right: 1em;
+    z-index: 20;
 }
 
+.error-message{
+    font-size: 2em;
+    color: #B00020;
+    display: none;
+    position: absolute;
+    font-weight: 600;
+}
 
 .roses-top {
     height: 15vh;
