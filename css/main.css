@@ -3,6 +3,8 @@ html,
 body {
     height: 100%;
     background-color: #1F3751;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
 }
 
 body {
@@ -45,30 +47,67 @@ body {
     height: 20vh;
 }
 
+.base-text{
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.0;
+}
+.base-text p{
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.0;
+}
+
 .main-names {
     margin-bottom: 1em;
     margin-top: 1em;
 }
 
 .main-names p {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 0;
-    margin-top: 0;
-    line-height: 1.0;
+    font-size: 1.5rem;
 }
 
-
 .guest-names {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.guest-names p {
+    font-size: 1.2rem;
 }
 
 .info-text{
     font-size: 1.0rem;
-    font-weight: 300;
-    margin-bottom: 0;
-    margin-top: 0;
+}
+
+@media (min-width: 35em) {
+    .info-text{
+        font-size: 2.0rem;
+    }
+    .guest-names p{
+        font-size: 2.3rem;
+    }
+    .main-names p {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-height: 70em) {
+    .info-text{
+        font-size: 3.0rem;
+    }
+    .guest-names p{
+        font-size: 3.3rem;
+    }
+    .guest-names {
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .main-names p {
+        font-size: 4.5rem;
+    }
+    .main-names {
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
 }

@@ -19,7 +19,13 @@ $(document).ready(function () {
         $.each(result, function(i, field){
             if (queryId === field.id){
                 names = field.names
-                $("#guest-name-1").text(names)
+                if (names.length === 2){
+                    let name1 = names[0] + " и"
+                    $("#guest-name-1").text(name1)
+                    $("#guest-name-2").text(names[1])
+                }else {
+                    $("#guest-name-1").text(names)
+                }
                 console.log("FOUND")
             }
             console.log(field.id)
