@@ -12,9 +12,10 @@ const mainUrl = "https://jahongir28.github.io/wedding?id=ccfc1369-3769-4db9-b325
 $(document).ready(function () {
     let queryId = getParameterByName('id')
     if (queryId == null) {
-        $( ".content-main" ).hide();
+        /*$( ".content-main" ).hide();
         $("#error-message").text('Неверная ссылка')
-        $( ".error-message" ).show();
+        $( ".error-message" ).show();*/
+        $("#guest-name-1").text("***************")
         return
     }
     let clearId = queryId.replace(/"/g, '');
