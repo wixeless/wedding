@@ -1,24 +1,393 @@
 [
   {
     "id": "02e62f4f-a419-4639-9268-6114466686d3",
-    "order": 1,
-    "names": ["Jahongir", "Sivara"]
+    "male": "ДинМухаммад",
+    "female": "Мадина",
+    "location": "Токмок",
+    "total": "2"
   },
   {
     "id": "018ecf1b-5f03-49d7-86af-0133d45481e3",
-    "order": 2,
-    "names": ["ДинМухаммад", "Мадина"]
+    "male": "Фарид",
+    "female": "Дильфуза",
+    "location": "Токмок",
+    "total": "2"
   },
   {
     "id": "ccfc1369-3769-4db9-b325-ab950d677e60",
-    "order": 3,
-    "gender": "M",
-    "names": ["Kojo"]
+    "male": "Дильшад",
+    "female": "Дильназа",
+    "location": "Токмок",
+    "total": "2"
   },
   {
-    "id": "ccfc1369-3769-4db9-b325-ab950d677e61",
-    "order": 3,
-    "gender": "F",
-    "names": ["Кама"]
+    "id": "8734383a-f73d-4447-a083-01d7ec1004d1",
+    "male": "Шерали",
+    "female": "Карина",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "37f44387-0efa-42b2-8dcd-5e4ec9b75ebb",
+    "male": "Бараджан",
+    "female": "Амина",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "eeac75ad-23b8-4671-bd85-c096b0719028",
+    "male": "Каримжан",
+    "female": "Фируза",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "41aa2f7a-cc36-427b-8600-c0726e35b985",
+    "male": "Сардор",
+    "location": "Токмок",
+    "total": "1"
+  },
+  {
+    "id": "584f1e32-da9d-4eff-8164-b37daf47ec53",
+    "male": "Давран",
+    "location": "Токмок",
+    "total": "1"
+  },
+  {
+    "id": "a106a7e9-8b18-4fab-a16f-47d139782163",
+    "male": "Абдулазиз",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "78911b79-8322-4fb5-8e52-b26de9cd101c",
+    "male": "Икрамажан",
+    "female": "Шахназа",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "ab2f3120-8afb-44f7-9cc3-b1aa93cc2a05",
+    "male": "Камал",
+    "female": "Дильбар",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "4dbbcc13-fe3f-4c78-a582-03a9f737a389",
+    "male": "Шахрияр",
+    "location": "Токмок",
+    "total": "1"
+  },
+  {
+    "id": "54a911a4-dcc9-4699-afe6-3e0480f7cf13",
+    "male": "Альфаиз",
+    "location": "Токмок"
+  },
+  {
+    "id": "881c835d-f164-4611-91b5-b38bbe58e342",
+    "male": "Ака ",
+    "female": "Кенаи",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "bfeb4288-ae49-4c8c-854f-fa25d70a2a37",
+    "male": "Артур",
+    "location": "Токмок",
+    "total": "1"
+  },
+  {
+    "id": "0c0e9eca-f227-4205-8c49-e51f1540de29",
+    "female": "Роза",
+    "location": "Токмок",
+    "total": "1"
+  },
+  {
+    "id": "a106538b-2773-4c4d-b66c-dcc3e1300abc",
+    "male": "Агзам ",
+    "female": "Шахноза",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "a006c679-f1ac-42f3-8aef-88eeadd4e738",
+    "male": "Саид",
+    "female": "Амина",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "c6be3768-f66b-4ff6-93e8-d38ab713f9e0",
+    "male": "Шах",
+    "female": "Дильфуза",
+    "location": "Токмок",
+    "total": "2"
+  },
+  {
+    "id": "4d46809f-6a69-4753-a8d3-dff1ce717615",
+    "male": "Шахрух",
+    "location": "11-C",
+    "total": "1"
+  },
+  {
+    "id": "63cc22fb-16c1-4467-a67a-9dedd1a7476f",
+    "male": "Азамат",
+    "location": "11-C",
+    "total": "2"
+  },
+  {
+    "id": "743ecc7c-7372-4cc3-8107-6d1887cf4746",
+    "male": "Анвар Саб",
+    "location": "11-C",
+    "total": "2"
+  },
+  {
+    "id": "80878a2e-a537-485f-818d-17a3e0b3cf20",
+    "male": "Азат",
+    "location": "11-C",
+    "total": "1"
+  },
+  {
+    "id": "c5c6b7db-1a8a-4115-a9e6-05ca4c318f95",
+    "male": "Сагынбек",
+    "location": "11-C",
+    "total": "2"
+  },
+  {
+    "id": "bb7a7a31-436e-4217-a5dc-b89223baa876",
+    "male": "Искендер",
+    "location": "11-C",
+    "total": "1"
+  },
+  {
+    "id": "f7e47960-a7a7-4885-95ac-ea17eb4f0083",
+    "male": "Максат",
+    "location": "11-C",
+    "total": "2"
+  },
+  {
+    "id": "f83beddc-9149-41e0-9e4e-c5722974eef5",
+    "male": "Анвар Дж",
+    "location": "11-C",
+    "total": "1"
+  },
+  {
+    "id": "70c5883a-2c8c-455e-9153-ee052939fad2",
+    "male": "Тахир",
+    "location": "11-C",
+    "total": "1"
+  },
+  {
+    "id": "bbbe8cf1-d4ae-43f8-a4c5-6e865ecbebaf",
+    "male": "Кубанычбек",
+    "location": "11-C"
+  },
+  {
+    "id": "58a3e17a-13a7-4460-8c48-50aa00a0dfc9",
+    "male": "Чингиз",
+    "location": "11-C"
+  },
+  {
+    "id": "42778823-93df-4503-b5db-09e48e9e2fc5",
+    "male": "Айбек",
+    "location": "11-C"
+  },
+  {
+    "id": "fbd2a18a-1a6e-4426-891c-8d994fe64d54",
+    "male": "Ольга Петровна",
+    "location": "11-C"
+  },
+  {
+    "id": "46990a97-c10c-48c4-ab69-60a72664803b",
+    "male": "Мухаммед Акчай",
+    "location": "11-C"
+  },
+  {
+    "id": "57f39f8d-56aa-45fb-bc1e-0ae8aa06c040",
+    "male": "Аббас",
+    "female": "Зарина",
+    "location": "COM-10",
+    "total": "2"
+  },
+  {
+    "id": "c7a2e986-ec67-422c-a835-237304f37922",
+    "male": "Нурба",
+    "location": "COM-10",
+    "total": "2"
+  },
+  {
+    "id": "0852d261-d403-43fa-9851-4894b395b160",
+    "male": "Эрнис",
+    "location": "COM-10",
+    "total": "1"
+  },
+  {
+    "id": "c75d8896-b2e2-464a-bcc4-ea5cca3b7f01",
+    "male": "Алекс",
+    "location": "COM-10",
+    "total": "2"
+  },
+  {
+    "id": "ad36a9bb-be42-4a88-9a68-20ddc32c0a26",
+    "male": "Петя",
+    "location": "COM-10",
+    "total": "2"
+  },
+  {
+    "id": "8fae71f9-7702-4266-a313-074ffdd328e9",
+    "male": "Азирет",
+    "location": "COM-10"
+  },
+  {
+    "id": "a2afc13d-b34d-4d88-8940-f130e49b5e25",
+    "male": "Закирдин Ламиев",
+    "location": "COM-10"
+  },
+  {
+    "id": "a5fb87cf-2ef7-414b-ad1f-cca21209fcb1",
+    "female": "Мерьем",
+    "location": "Бишкек",
+    "total": "2"
+  },
+  {
+    "id": "4bf5a1d3-7ac2-4f3c-a65f-5896b4b7d636",
+    "male": "Акмаль Ака",
+    "female": "Кифоят",
+    "location": "Бишкек",
+    "total": "2"
+  },
+  {
+    "id": "9abf4d1b-d586-4be1-be9a-5b024607efd1",
+    "male": "Арафат",
+    "location": "Бишкек",
+    "total": "1"
+  },
+  {
+    "id": "3ab38820-3c46-42c3-96ba-8dcf1ea20353",
+    "male": "Икрам",
+    "female": "Разия",
+    "location": "Бишкек",
+    "total": "2"
+  },
+  {
+    "id": "4fc4b31c-b9e9-481e-853b-3a4254652f5e",
+    "male": "Азиз",
+    "location": "Бишкек",
+    "total": "2"
+  },
+  {
+    "id": "014a2057-94f9-4045-8d33-e2cc770755b5",
+    "male": "Улан",
+    "location": "Бишкек"
+  },
+  {
+    "id": "5b280285-3d33-4e18-97eb-8f416f69a4df",
+    "male": "Данияр",
+    "location": "Бишкек"
+  },
+  {
+    "id": "d76271d8-2e20-453b-8866-bc443f90dee3",
+    "male": "Алишер",
+    "female": "Надира ",
+    "location": "Бишкек"
+  },
+  {
+    "id": "b18e854d-cd06-48e7-8730-cf03fae7a9e7",
+    "male": "Бахтияр",
+    "female": "Надира ",
+    "location": "Бишкек",
+    "total": "2"
+  },
+  {
+    "id": "295c0ac6-c1dd-4191-a85e-b53805b8894a",
+    "female": "Даана",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "11144e72-5d09-4436-b8f9-42a56af5c864",
+    "male": "Расул",
+    "location": "Beeline",
+    "total": "2"
+  },
+  {
+    "id": "27eacbe8-fff2-4c87-98ac-7221fa757847",
+    "female": "Гаухар",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "42c73a74-4b4a-4273-9bb9-6ab6db5d3a8e",
+    "male": "Михаил",
+    "female": "Руша",
+    "location": "Beeline",
+    "total": "2"
+  },
+  {
+    "id": "21631899-b9f3-4439-bd05-2bd81bfca807",
+    "male": "Кожоназар",
+    "female": "Аида",
+    "location": "Beeline",
+    "total": "2"
+  },
+  {
+    "id": "248f563b-c746-4038-9fcb-4c5c7dd35495",
+    "male": "Адыл",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "784ef92b-024d-460f-af02-2435a6ad6e74",
+    "male": "Атай",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "75c1f52c-6d5b-404d-9fcc-022d73ece38a",
+    "male": "Тимур",
+    "female": "Бермет",
+    "location": "Beeline",
+    "total": "2"
+  },
+  {
+    "id": "83d56b7b-052c-49b9-92ee-9aa77a058a45",
+    "male": "Айбек",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "d6e53ea9-bf32-4ef5-935a-493ef6fc2a08",
+    "male": "Жоодар",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "840b8e84-2a8a-42d5-990f-8b62a0c1ceae",
+    "male": "Бегай",
+    "location": "Beeline"
+  },
+  {
+    "id": "f06da368-71b9-481c-8090-e660e0ab09eb",
+    "male": "Жанар",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "5aa157b0-2fcb-4a4c-89f7-459d51ebb2d5",
+    "male": "Тахмина",
+    "location": "Beeline"
+  },
+  {
+    "id": "677834a6-1f2f-4649-b41f-719cb9c88cc2",
+    "female": "Олена Никитюк",
+    "location": "Beeline",
+    "total": "1"
+  },
+  {
+    "id": "23abfc19-00ea-412d-b680-0ce57d495f63",
+    "male": "Александр Атаматов",
+    "location": "Beeline",
+    "total": "1"
   }
 ]

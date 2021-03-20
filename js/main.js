@@ -21,16 +21,27 @@ $(document).ready(function () {
     let clearId = queryId.replace(/"/g, '');
     console.log("queryId:" + queryId)
     $.getJSON("guests.json", function (result) {
-        console.log("success " + result);
-        let names = []
-        let gender = ""
+        console.log("success");
+        let male = null
+        let female = null
         $.each(result, function (i, field) {
+            /**
+             * @param field
+             * @param field.male
+             * @param field.female
+             */
             if (clearId === field.id) {
-                names = field.names
-                gender = field.gender
+                if (field.hasOwnProperty("male")){
+                    male = field.male
+                }
+                if (field.hasOwnProperty("female")){
+                    female = field.female
+                }
             }
         });
-        if (names.length === 0) {
+
+
+        /*if (names.length === 0) {
             $(".content-main").hide();
             let text = $("#error-message").text('Пригласительный\nне найден')
             text.html(text.html().replace(/\n/g, '<br/>'));
@@ -52,7 +63,7 @@ $(document).ready(function () {
             }
             $("#welcome-title").text(prefix)
             $("#guest-name-1").text(names)
-        }
+        }*/
     })
 });
 

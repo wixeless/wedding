@@ -66,13 +66,14 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-
+    z-index: 2;
 }
 
 .roses-bottom-con {
     position: absolute;
     left: 0;
     bottom: 0;
+    z-index: 2;
 }
 
 .roses-bottom {
@@ -177,4 +178,12 @@ body {
         margin-bottom: 2em;
         margin-top: 2em;
     }
+}
+.large-header {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
 }
