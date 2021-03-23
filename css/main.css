@@ -61,7 +61,7 @@ body {
 }
 
 .flowers-top-con {
-    margin-top: -15%;
+    margin-top: -10vh;
     z-index: 2;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .flowers-bottom-con {
-    margin-bottom: -15%;
+    margin-bottom: -10vh;
     z-index: 2;
 }
 
@@ -115,7 +115,7 @@ body {
 
     .text-block p{
         line-height: 1.3;
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
 

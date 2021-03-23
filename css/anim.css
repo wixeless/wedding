@@ -1,19 +1,19 @@
 
-.top-rose-anim{
-    animation: roses-top-anim 2s;
+.flowers-top-anim{
+    animation: flowers-top-anim 2s;
 }
 
-@-webkit-keyframes roses-top-anim {
-    from {top: -120px;}
-    to {top: 0;}
+@-webkit-keyframes flowers-top-anim {
+    from {margin-top: -30vh;}
+    to {top: -10vh;}
 }
 
-.bottom-rose-anim{
-    animation: roses-bottom-anim 2s;
+.flowers-bottom-anim{
+    animation: flowers-bottom-anim 2s;
 }
-@-webkit-keyframes roses-bottom-anim {
-    from {bottom: -150px;}
-    to {bottom: 0;}
+@-webkit-keyframes flowers-bottom-anim {
+    from {margin-bottom: -30vh;}
+    to {bottom: -10vh;}
 }
 
 .content-anim{
