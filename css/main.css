@@ -78,10 +78,15 @@ body {
     height: 25vh;
 }
 
+.main-names{
+    position: absolute;
+    bottom: 15vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 
 .main-names p {
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 0.7rem;
 }
 .guest-names{
     margin-bottom: 5vh;
@@ -110,7 +115,7 @@ body {
     }
 
     .main-names p {
-        font-size: 4.5rem;
+        font-size: 0.7rem;
     }
 
     .text-block p{
@@ -126,7 +131,7 @@ body {
     }
 
     .main-names p {
-        font-size: 4.5rem;
+        font-size: 0.7rem;
     }
 
     .text-block p{
@@ -142,7 +147,7 @@ body {
     }
 
     .main-names p {
-        font-size: 4.5rem;
+        font-size: 1.7rem;
     }
 
     .text-block p{

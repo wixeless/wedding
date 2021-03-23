@@ -21,6 +21,11 @@
     -webkit-animation-name: fade-in, zoom-in;
 }
 
+.main-names-anim{
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: fade-in;
+}
+
 @-webkit-keyframes fade-in {
     0% {
         opacity: 0;
