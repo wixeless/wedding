@@ -61,7 +61,7 @@ body {
     margin-left: 1em;
     margin-right: 1em;
     z-index: 20;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
