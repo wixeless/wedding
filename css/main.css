@@ -19,7 +19,7 @@ body {
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     position: relative;
     text-align: center;
-    background-image: url("../img/bg_cover.png");
+    background-image: url("../img/bg_small.png");
     background-size: cover;
     background-position:  center;
 }
@@ -220,16 +220,6 @@ body {
     bottom: 15px;
     right: 15px;
     z-index: 3;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: padding-box;
 }
-
-/*
-.outline div {
-    position: absolute;
-    top: 5vw;
-    left: 5vw;
-    bottom: 5vw;
-    right: 5vw;
-    z-index: 3;
-    border: 2px solid white;
-}*/
