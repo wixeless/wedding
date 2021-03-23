@@ -31,17 +31,17 @@ $(document).ready(function () {
              * @param field.female
              */
             if (clearId === field.id) {
-                if (field.hasOwnProperty("male")){
+                if (field.hasOwnProperty("male")) {
                     male = field.male
                 }
-                if (field.hasOwnProperty("female")){
+                if (field.hasOwnProperty("female")) {
                     female = field.female
                 }
             }
         });
 
 
-        /*if (names.length === 0) {
+        if (male == null && female == null) {
             $(".content-main").hide();
             let text = $("#error-message").text('Пригласительный\nне найден')
             text.html(text.html().replace(/\n/g, '<br/>'));
@@ -49,21 +49,17 @@ $(document).ready(function () {
             return
         }
 
-        if (names.length === 2) {
-            $("#welcome-title").text('Уважаемые')
-            let name1 = names[0] + " и"
-            $("#guest-name-1").text(name1)
-            $("#guest-name-2").text(names[1])
-        } else {
-            let prefix
-            if (gender === "F") {
-                prefix = 'Уважаемая'
-            } else {
-                prefix = 'Уважаемый'
-            }
-            $("#welcome-title").text(prefix)
-            $("#guest-name-1").text(names)
-        }*/
+
+        if (male != null && female != null) {
+            let nameWith = male + " и"
+            $("#male-name").text(nameWith)
+            $("#female-name").text(female)
+        }else if (male!=null){
+            $("#male-name").text(male)
+        }else if (female!=null){
+            $("#female-name").text(female)
+        }
+
     })
 });
 

@@ -2,9 +2,22 @@
 html,
 body {
     height: 100%;
-    font-family: 'Marck Script', cursive;
-    font-weight: 400;
+    font-family: 'SevaRegular', serif;
     margin: 0;
+}
+
+@font-face {
+    font-family: SevaTitleWeb;
+    font-style: normal;
+    font-weight: normal;
+    src: local('SevaTitleWeb'), url("../css/seva_title.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SevaRegular;
+    font-style: normal;
+    font-weight: normal;
+    src: local('SevaRegular'), url("../css/seva_regular.ttf") format("opentype");
 }
 
 .main-page {
@@ -21,7 +34,7 @@ body {
     text-align: center;
     background-image: url("../img/bg_small.png");
     background-size: cover;
-    background-position:  center;
+    background-position: center;
 }
 
 .match-parent {
@@ -47,28 +60,6 @@ body {
     font-weight: 600;
 }
 
-.roses-top-con {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 2;
-}
-
-.roses-top {
-    height: 15vh;
-}
-
-.roses-bottom-con {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 2;
-}
-
-.roses-bottom {
-    height: 20vh;
-}
-
 .flowers-top-con {
     margin-top: -15%;
     z-index: 2;
@@ -88,96 +79,48 @@ body {
 }
 
 
-.base-text {
-    margin-bottom: 0;
-    margin-top: 0;
-    line-height: 1.0;
-}
-
-.base-text p {
-    margin-bottom: 0;
-    margin-top: 0;
-    line-height: 1.0;
-}
-
-.text-block {
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-
 .main-names p {
     font-size: 1.4rem;
     font-weight: 500;
 }
-
+.guest-names{
+    margin-bottom: 5vh;
+}
 .guest-names p {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-family: 'SevaTitleWeb', serif;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top:0;
 }
 
-.info-text {
+.text-block {
+    margin: 5vh 20px;
+}
+
+.text-block p{
+    margin-bottom: 0;
+    margin-top: 0;
     font-size: 1.0rem;
-}
-
-.info-text p {
-    font-size: 1.0rem;
-}
-
-.text-date {
-    font-size: 1.2rem;
-    font-weight: 450;
+    line-height: 1.0;
 }
 
 @media (min-width: 35em) {
     .guest-names p {
-        font-size: 1.8rem;
+        font-size: 5rem;
     }
 
     .main-names p {
-        font-size: 2.0rem;
+        font-size: 4.5rem;
     }
 
-    .info-text {
-        font-size: 1.5rem;
-    }
-
-    .info-text p {
-        font-size: 1.5rem;
-    }
-
-    .text-date {
-        font-size: 1.8rem;
-    }
-
-    .text-block {
-        margin-bottom: 0.8em;
-        margin-top: 0.8em;
+    .text-block p{
+        line-height: 1.3;
+        font-size: 2rem;
     }
 }
 
+/*IPHONE X SIZE*/
 @media (min-height: 50em) {
-    .guest-names p {
-        font-size: 1.6rem;
-    }
-
-    .main-names p {
-        font-size: 1.8rem;
-    }
-
-    .info-text {
-        font-size: 1.3rem;
-    }
-
-    .info-text p {
-        font-size: 1.3rem;
-    }
-
-    .text-date {
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-height: 70em) {
     .guest-names p {
         font-size: 3.3rem;
     }
@@ -186,21 +129,25 @@ body {
         font-size: 4.5rem;
     }
 
-    .info-text {
-        font-size: 3.0rem;
+    .text-block p{
+        line-height: 1.3;
+        font-size: 0.9rem;
+    }
+}
+
+/*GOOGLE PIXEL*/
+@media (min-height: 70em) {
+    .guest-names p {
+        font-size: 7rem;
     }
 
-    .info-text p {
-        font-size: 3.0rem;
+    .main-names p {
+        font-size: 4.5rem;
     }
 
-    .text-date {
-        font-size: 3.3rem;
-    }
-
-    .text-block {
-        margin-bottom: 2em;
-        margin-top: 2em;
+    .text-block p{
+        line-height: 1.3;
+        font-size: 2.5rem;
     }
 }
 
