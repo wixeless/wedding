@@ -107,7 +107,7 @@ body {
 
 .guest-names p {
     font-family: 'SevaTitleWeb', serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -136,15 +136,15 @@ body {
 
 @media (min-width: 35em) {
     .guest-names p {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .main-names p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .text-block p {
-        line-height: 1.5;
+        line-height: 2;
         font-size: 1rem;
     }
 }
@@ -156,11 +156,11 @@ body {
     }
 
     .main-names p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .text-block p {
-        line-height: 1.5;
+        line-height: 2;
         font-size: 0.9rem;
     }
 }
@@ -168,7 +168,7 @@ body {
 /*GOOGLE PIXEL*/
 @media (min-height: 70em) {
     .guest-names p {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .main-names p {
@@ -176,8 +176,8 @@ body {
     }
 
     .text-block p {
-        line-height: 2;
-        font-size: 2.5rem;
+        line-height: 3;
+        font-size: 2rem;
     }
 }
 
