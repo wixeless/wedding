@@ -98,7 +98,7 @@ body {
 }
 
 .main-names p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .guest-names {
@@ -120,7 +120,7 @@ body {
     margin-bottom: 0;
     margin-top: 0;
     font-size: 1.0rem;
-    line-height: 1.0;
+    line-height: 1.5;
 }
 
 .anim-con {
