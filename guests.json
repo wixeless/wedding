@@ -276,6 +276,7 @@
   },
   {
     "id": "ca01d484-aa67-4916-84eb-98e692dcafbb",
+    "male": "Кирилл",
     "female": "Мерьем",
     "location": "Бишкек",
     "total": "2"
@@ -365,6 +366,7 @@
   {
     "id": "9984f8b8-d5ae-4384-8471-769c68ffe36e",
     "male": "Адыл",
+    "female": "Насиба",
     "location": "Beeline",
     "total": "1"
   },
