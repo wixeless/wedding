@@ -64,52 +64,8 @@ $(document).ready(function () {
 });
 
 $(function(){
-    let event = "BEGIN:VCALENDAR\n" +
-        "VERSION:2.0\n" +
-        "PRODID:-//Apple Inc.//macOS 11.1//EN\n" +
-        "CALSCALE:GREGORIAN\n" +
-        "BEGIN:VTIMEZONE\n" +
-        "TZID:Asia/Bishkek\n" +
-        "BEGIN:STANDARD\n" +
-        "TZOFFSETFROM:+0600\n" +
-        "RRULE:FREQ=YEARLY;UNTIL=20041030T203000Z;BYMONTH=10;BYDAY=-1SU\n" +
-        "DTSTART:19971026T023000\n" +
-        "TZNAME:GMT+6\n" +
-        "TZOFFSETTO:+0500\n" +
-        "END:STANDARD\n" +
-        "BEGIN:DAYLIGHT\n" +
-        "TZOFFSETFROM:+0500\n" +
-        "DTSTART:20050327T023000\n" +
-        "TZNAME:GMT+6\n" +
-        "TZOFFSETTO:+0600\n" +
-        "END:DAYLIGHT\n" +
-        "END:VTIMEZONE\n" +
-        "BEGIN:VEVENT\n" +
-        "TRANSP:OPAQUE\n" +
-        "DTEND;TZID=Asia/Bishkek:20210409T230000\n" +
-        "UID:D6781C75-B0E8-4E9C-ABAB-1A69571CF237\n" +
-        "DTSTAMP:20210325T060751Z\n" +
-        "LOCATION:Дияр\\, проспект Победы (Жибек-Жолу)\\, 327\\, с. Лебединовка\n" +
-        "DESCRIPTION:​Ресторан \"Дияр\"\\, проспект Победы\\, 327\n" +
-        "URL;VALUE=URI:https://go.2gis.com/2u5w6\n" +
-        "STATUS:CONFIRMED\n" +
-        "SEQUENCE:1\n" +
-        "SUMMARY:Свадьба ЖАХОНГИР & СИВАРА\n" +
-        "LAST-MODIFIED:20210325T060751Z\n" +
-        "DTSTART;TZID=Asia/Bishkek:20210409T170000\n" +
-        "CREATED:20210325T054737Z\n" +
-        "X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC\n" +
-        "BEGIN:VALARM\n" +
-        "X-WR-ALARMUID:49EC04D5-8CD1-447D-82E4-49E5FC000EB8\n" +
-        "UID:49EC04D5-8CD1-447D-82E4-49E5FC000EB8\n" +
-        "TRIGGER:-PT1H\n" +
-        "DESCRIPTION:This is an event reminder\n" +
-        "ACTION:DISPLAY\n" +
-        "END:VALARM\n" +
-        "END:VEVENT\n" +
-        "END:VCALENDAR\n"
     $("#event-field").click(function(){
-        window.open("data:text/calendar;charset=utf8," + escape(event))
+        window.open("data:text/calendar;charset=utf8," + escape("event.ics"))
     });
 });
 
