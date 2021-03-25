@@ -109,7 +109,7 @@ $(function(){
             "END:VALARM\n" +
             "END:VEVENT\n" +
             "END:VCALENDAR\n"
-        window.open("data:text/calendar;charset=utf8," + "event.ics");
+        window.open("data:text/calendar;charset=utf8," + icsMSG);
     });
 });
 
