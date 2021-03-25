@@ -338,6 +338,7 @@
   {
     "id": "8303c777-0d6f-4966-be29-4d70d9be8e99",
     "male": "Расул",
+    "female": "Наргиза",
     "location": "Beeline",
     "total": "2"
   },
@@ -410,19 +411,20 @@
   },
   {
     "id": "a3b2a9d8-6092-4780-8cd6-0b854b18c59e",
-    "female": "Олена Никитюк",
+    "female": "Елена",
     "location": "Beeline",
     "total": "1"
   },
   {
     "id": "82afc997-4719-4604-a910-3ccdaece35a5",
-    "male": "Александр Атаматов",
+    "male": "Александр",
     "location": "Beeline",
     "total": "1"
   },
   {
     "id": "03d96a73-24dc-43dd-8561-ca2d0b7d52b2",
     "male": "Марат",
+    "location": "Beeline",
     "total": "1"
   },
   {
