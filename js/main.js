@@ -63,7 +63,7 @@ $(document).ready(function () {
     })
 });
 
-$(function(){
+/*$(function(){
     $("#event-field").click(function(){
         let icsMSG = "BEGIN:VCALENDAR\n" +
             "VERSION:2.0\n" +
@@ -111,5 +111,5 @@ $(function(){
             "END:VCALENDAR\n"
         window.open("data:text/calendar;charset=utf8," + icsMSG);
     });
-});
+});*/
 
