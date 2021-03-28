@@ -202,7 +202,7 @@
   },
   {
     "id": "76cdbd47-1aa8-4f0d-8896-0adf5d9ce7b3",
-    "male": "Ольга Петровна",
+    "male": "Ольга",
     "location": "11-C"
   },
   {
@@ -440,6 +440,11 @@
     "location": "Beeline"
   },
   {
+    "id": "75a821b3-d9b9-4f87-ac08-e6afbb1ba15f",
+    "male": "Азиз",
+    "location": "Beeline"
+  },
+  {
     "id": "21718f07-d6ab-4630-9ca4-e2aeed40b819",
     "male": "Дильшат",
     "female": "Фируза",
@@ -577,5 +582,14 @@
     "male": "Агзам",
     "female": "Рамиля",
     "total": "2"
+  },
+  {
+    "id": "df1d51c6-f2f0-4c00-8366-6c61e96be0bf",
+    "male": "Дильмурат"
+  },
+  {
+    "id": "0b572dac-1e0e-41df-b3c9-2ff82584e28e",
+    "male": "Данияль",
+    "female": "Сафия"
   }
 ]
