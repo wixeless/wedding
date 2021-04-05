@@ -333,7 +333,18 @@
   },
   {
     "id": "06474c24-f5cc-4b78-95fd-042395e869af",
-    "male": "Давлят"
+    "male": "Давлят",
+    "location": "Бишкек"
+  },
+  {
+    "id": "fdd62594-6c71-4099-a28d-4390dcdf2dd1",
+    "male": "Данияр",
+    "location": "Бишкек"
+  },
+  {
+    "id": "dcf29c5a-0860-4a78-8959-5f39ce07c449",
+    "male": "Денис",
+    "location": "Beeline"
   },
   {
     "id": "7e41cb8b-aa26-49b0-b2f9-b25b67d58aba",
